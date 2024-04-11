@@ -1,5 +1,7 @@
 # これは？
 実験レポートのテンプレートです.`TeX`で書きたいならどうぞ.
+<img width="727" alt="スクリーンショット 2024-04-11 17 50 32" src="https://github.com/miko-misa/scitokyo24-experiment-template/assets/87632190/cb5c6143-3e52-439b-ac0b-278088e6ae00">
+
 
 # 注意
 以下の内容を必ず守ってください.

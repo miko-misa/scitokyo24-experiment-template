@@ -1,0 +1,65 @@
+\documentclass[a4paper]{ltjsreport}
+\usepackage[top=16truemm,bottom=16truemm,left=14truemm,right=14truemm]{geometry}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{lastpage}
+\usepackage{hyperref}
+\usepackage{enumerate}
+\usepackage{tcolorbox}
+\tcbuselibrary{breakable, skins}
+\usepackage{luacode}
+\usepackage{etoolbox}
+\usepackage{bxbase}
+\usepackage{luatexja-otf}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{url}
+
+\hypersetup{
+  luatex,
+ bookmarks=false,
+ colorlinks=true,
+ linkcolor=black,
+ citecolor=[rgb]{0,0.4,0.8},
+ filecolor=black,
+ urlcolor=[rgb]{0,0.4,0.8}
+}
+
+
+\pagestyle{fancy}
+\lhead{\fontsize{8pt}{0pt}\selectfont \hyperlink{top}{実験計画書}}
+\rfoot{\href{https://github.com/miko-misa/scitokyo24-experiment-template/}{実験計画書テンプレート}}
+\cfoot{\thepage}
+
+
+\begin{document}
+\begin{multicols}{2}
+\hspace{-1em}{\fontsize{38pt}{80pt}\selectfont 実験計画書}
+\vspace*{5px}
+\\
+{\large \textbf{【実験テーマ】}No.9 電磁気}\\
+\\
+\\
+\begin{description}[labelwidth=6.0em]
+  \setlength{\leftskip}{3.8cm}
+  \item[実験日] 2024年4月15日
+  \item[曜日-組-班] 月-白-ロ
+  \item[学籍番号] 24B00000
+  \item[名前] 佐藤 太郎
+\end{description}
+\end{multicols}
+
+\section*{目的}
+ここには目的を書くのです。
+\section*{手順}
+ここには手順を書くのです。
+
+
+
+
+
+\end{document}
